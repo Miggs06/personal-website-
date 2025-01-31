@@ -6,9 +6,16 @@ p {
 }
 h1 {
   font-weight: lighter;
+  text-align: center;
+  font-family: monospace;
 }
 ul{ 
   color: grey;
+}
+
+a {
+padding-right: 30px;
+  margin-left: 60px;
 }
 img {
   height:300px;
@@ -20,9 +27,30 @@ img {
   display: flex;
   flex-direction:row-reverse;
   flex-wrap: nowrap;
-  justify-content: center
+  justify-content: center;
+  padding: 20px;
   }
  
 .info {
   font-family: monospace; 
+  text-align: center;
+ padding: 20px;
+  
 }
+
+.image {
+  font-family: monospace; 
+  text-align: center;
+  justify-content: center;
+}
+.navbar {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 20px;
+}
+  
+  
+
+
