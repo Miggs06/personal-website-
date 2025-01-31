@@ -1,0 +1,28 @@
+body {
+  background: yellow ;
+}
+p {
+  color: black;
+}
+h1 {
+  font-weight: lighter;
+}
+ul{ 
+  color: grey;
+}
+img {
+  height:300px;
+  border-style:double;
+  border-radius:50px;
+  }
+/*comment*/
+.container {
+  display: flex;
+  flex-direction:row-reverse;
+  flex-wrap: nowrap;
+  justify-content: center
+  }
+ 
+.info {
+  font-family: monospace; 
+}
